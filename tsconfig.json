@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",                     // Add JSX support
+    "lib": ["dom", "dom.iterable", "esnext"],  // Add DOM types
+    "skipLibCheck": true,               // Skip type checking of node_modules
+    "moduleResolution": "node",         // Needed for TypeScript module resolution
+    "resolveJsonModule": true,          // Allow importing JSON files
+    "isolatedModules": true,           // Ensure each file can be safely transpiled
+    "allowJs": true                    // Allow JavaScript files to be compiled
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
